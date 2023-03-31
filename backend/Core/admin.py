@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Recommend,Imagem
 
-# Register your models here.
+admin.site.register(Recommend)
+admin.site.register(Imagem)
